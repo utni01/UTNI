@@ -22,7 +22,7 @@
             padding: 20px;
         }
         .container {
-            max-width: 600px;
+            max-width: 650px;
             animation: fadeIn 1s ease-in-out;
         }
         .badge {
@@ -48,6 +48,12 @@
             font-size: 18px;
             color: #94a3b8;
             line-height: 1.6;
+            margin-bottom: 12px;
+        }
+        .eng-text {
+            font-size: 15px;
+            color: #64748b;
+            line-height: 1.5;
             margin-bottom: 32px;
         }
         .divider {
@@ -58,12 +64,20 @@
             border-radius: 2px;
         }
         .contact-info {
-            font-size: 14px;
+            font-size: 15px;
+            color: #94a3b8;
+            line-height: 1.6;
+        }
+        .contact-info-eng {
+            font-size: 13px;
             color: #64748b;
+            margin-top: 4px;
+            margin-bottom: 12px;
         }
         .contact-info a {
             color: #38bdf8;
             text-decoration: none;
+            font-weight: 600;
         }
         .contact-info a:hover {
             text-decoration: underline;
@@ -75,6 +89,7 @@
         @media (max-width: 480px) {
             h1 { font-size: 36px; }
             p { font-size: 16px; }
+            .eng-text { font-size: 14px; }
         }
     </style>
 </head>
@@ -83,10 +98,14 @@
         <div class="badge">WEBSITE UNDER CONSTRUCTION</div>
         <h1>BACK SOON</h1>
         <div class="divider"></div>
+        
         <p>현재 홈페이지 리뉴얼 작업이 진행 중입니다.<br>더 나은 서비스로 조만간 찾아뵙겠습니다.</p>
+        <p class="eng-text">Our website is currently undergoing a renewal.<br>We will be back soon with improved services.</p>
+        
         <div class="contact-info">
             문의사항이 있으신 경우 메일로 연락 주시기 바랍니다.<br>
-            <a href="mailto:info@utni.co.kr">info@utni.co.kr</a>
+            <div class="contact-info-eng">If you have any inquiries, please contact us via email.</div>
+            <a href="mailto:utni01@utni.co.kr">utni01@utni.co.kr</a>
         </div>
     </div>
 </body>
