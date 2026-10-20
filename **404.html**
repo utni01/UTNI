@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <script>
+        // 예전 링크(sub02_02 등)로 들어오면 메인 페이지(utni.co.kr)로 자동 이동
+        window.location.href = "https://utni.co.kr";
+    </script>
+</head>
+<body>
+</body>
+</html>
